@@ -8,38 +8,43 @@ import JobPage from './pages/job'
 import JobListing from './pages/job-listing'
 import MyJobs from './pages/my-jobs'
 import { ThemeProvider } from './components/theme-provider'
+import PostJob from "./pages/post-job";
 
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
     children: [
       {
-        path: '/',
-        element: <LandingPage />
+        path: "/",
+        element: <LandingPage />,
       },
       {
-        path: '/onboarding',
-        element: <Onboarding />
+        path: "/onboarding",
+        element: <Onboarding />,
       },
       {
-        path: '/saved-jobs',
-        element: <SaveJobs />
+        path: "/saved-jobs",
+        element: <SaveJobs />,
       },
       {
-        path: '/job/:id',
-        element: <JobPage />
+        path: "/job/:id",
+        element: <JobPage />,
       },
       {
-        path: '/jobs',
-        element: <JobListing />
+        path: "/jobs",
+        element: <JobListing />,
       },
       {
-        path: '/my-jobs',
-        element: <MyJobs />
-      }
-    ]
-  }
-])
+        path: "/my-jobs",
+        element: <MyJobs />,
+      },
+      {
+        path: "/post-job",
+        element: <PostJob />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (

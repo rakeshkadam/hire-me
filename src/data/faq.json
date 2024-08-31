@@ -1,0 +1,30 @@
+[
+  {
+    "question": "How do I create an account?",
+    "answer": "To create an account, click on the 'Sign Up' button on the homepage. Fill in your personal details, such as your name, email address, and password, and then click 'Submit.' You will receive a confirmation email with a link to activate your account."
+  },
+  {
+    "question": "How do I search for jobs?",
+    "answer": "After logging in, you can use the search bar on the homepage to enter keywords, job titles, or company names. You can also filter your search by location, industry, job type, and experience level."
+  },
+  {
+    "question": "How can I apply for a job?",
+    "answer": "Once you've found a job you're interested in, click on the job title to view the job details. If you meet the requirements, click the 'Apply Now' button. You may need to upload your resume and cover letter or complete an online application form."
+  },
+  {
+    "question": "What should I do if I forget my password?",
+    "answer": "If you forget your password, click on the 'Forgot Password' link on the login page. Enter your registered email address, and a password reset link will be sent to you. Follow the instructions in the email to reset your password."
+  },
+  {
+    "question": "How do I update my profile information?",
+    "answer": "To update your profile information, log in and navigate to your profile page. Click 'Edit Profile' to update your personal details, work experience, education, and other relevant information."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can contact customer support by clicking on the 'Help' or 'Contact Us' link at the bottom of the page. Fill out the form with your query, or use the provided email address or phone number to reach out directly."
+  },
+  {
+    "question": "Are there any fees to use this job portal?",
+    "answer": "Most features of the job portal are free for job seekers. However, there may be premium services, such as resume reviews or enhanced profile visibility, that require payment. Check the pricing section or contact support for more details."
+  }
+]
